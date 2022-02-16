@@ -24,11 +24,12 @@
       <section id="contact" class="form form-section">
         <p class="mensaje-formulario">Contáctanos con el siguiente formulario</p>
         <form action="">
-          <input type="text" id="clientname" name="clientname" class="input-ph" placeholder="Nombre"><br>
-          <input type="text" id="clientsurnames" name="clientname"class="input-ph" placeholder="Apellidos"><br>
-          <input type="text" id="clientphone" name="clientphone"class="input-ph" placeholder="Teléfono"><br>
-          <input type="text" id="clientemail" name="clientemail"class="input-ph" placeholder="Email"><br>
-          <input type="checkbox" id="termsconditions" name="vehicle1" value="Bike">
+          <input type="text" id="clientname" name="clientname" class="input-ph" placeholder="Nombre" required><br>
+          <input type="text" id="clientsurnames" name="clientname"class="input-ph" placeholder="Apellidos" required><br>
+          <input type="text" id="clientphone" name="clientphone"class="input-ph" placeholder="Teléfono" required><br>
+          <input type="text" id="clientemail" name="clientemail"class="input-ph" placeholder="Email" required><br>
+          <input type="checkbox" id="termsconditions" required>
+          <label for="termsconditions">He leído los términos y condiciones.</label><br/>
           <input type="submit" id="submitbutton" value="¡Contacta!">
         </form>
       </section>

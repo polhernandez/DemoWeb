@@ -23,6 +23,9 @@ h1.title {
 }
 
 .mensaje-formulario {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -52,7 +55,6 @@ h1.title {
 
 #contact {
   text-align: center;
-  font-weight: bold;
 }
 
 .form-section {
