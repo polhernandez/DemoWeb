@@ -19,7 +19,7 @@ h1.title {
 
 .descripcion {
   text-align: justify;
-  padding: 20px;
+  padding: 0px 20px 20px 20px;
 }
 
 .mensaje-formulario {
